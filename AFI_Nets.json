@@ -1,23 +1,27 @@
 {
 	"NetworkPools": [{
-		"Pool1": [{
-				"ServerName": "SV000001",
-				"ServerIP": "1.2.3.1"
-			},
-			{
-				"ServerName": "SV000002",
-				"ServerIP": "1.2.3.2"
-			}
-		],
-
-		"Pool2": [{
-				"ServerName": "SV000003",
-				"ServerIP": "1.2.3.3"
-			},
-			{
-				"ServerName": "SV000004",
-				"author": "1.2.3.4"
-			}
-		]
-	}]
+			"PoolName": "Network A",
+			"PoolServers": [{
+					"ServerName": "SV000001",
+					"ServerIP": "1.2.3.1"
+				},
+				{
+					"ServerName": "SV000002",
+					"ServerIP": "1.2.3.2"
+				}
+			]
+		},
+		{
+			"PoolName": "Network B",
+			"PoolServers": [{
+					"ServerName": "SV000003",
+					"ServerIP": "1.2.3.3"
+				},
+				{
+					"ServerName": "SV000004",
+					"author": "1.2.3.4"
+				}
+			]
+		}
+	]
 }
