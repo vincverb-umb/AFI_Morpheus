@@ -1,0 +1,30 @@
+{
+    "AFI_Nets": [
+        {
+            "name": "AFI_Mgmt",
+            "servers": [
+					{
+					name:"SV000001"
+					ip:"1.2.3.1"
+					}
+					{
+					name:"SV000002"
+					ip:"1.2.3.2"
+					}
+				]
+			}
+		{
+            "name": "AFI_LAN",
+            "servers": [
+					{
+					name:"SV000003"
+					ip:"11.12.13.1"
+					}
+					{
+					name:"SV000004"
+					ip:"11.12.13.2"
+					}
+				]
+			}
+	]
+}
