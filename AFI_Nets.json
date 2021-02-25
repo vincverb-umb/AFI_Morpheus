@@ -8,7 +8,7 @@
 				"ServerName": "SV000002",
 				"ServerIP": "1.2.3.2"
 			}
-		]
+		],
 
 		"Pool2": [{
 				"ServerName": "SV000003",
