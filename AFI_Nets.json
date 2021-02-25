@@ -1,30 +1,23 @@
 {
-    "AFI_Nets": [
-        {
-            "name": "AFI_Mgmt",
-            "servers": [
-					{
-					name:"SV000001"
-					ip:"1.2.3.1"
-					}
-					{
-					name:"SV000002"
-					ip:"1.2.3.2"
-					}
-				]
+	"NetworkPools": [{
+		"Pool1": [{
+				"ServerName": "SV000001",
+				"ServerIP": "1.2.3.1"
+			},
+			{
+				"ServerName": "SV000002",
+				"ServerIP": "1.2.3.2"
 			}
-		{
-            "name": "AFI_LAN",
-            "servers": [
-					{
-					name:"SV000003"
-					ip:"11.12.13.1"
-					}
-					{
-					name:"SV000004"
-					ip:"11.12.13.2"
-					}
-				]
+		]
+
+		"Pool2": [{
+				"ServerName": "SV000003",
+				"ServerIP": "1.2.3.3"
+			},
+			{
+				"ServerName": "SV000004",
+				"author": "1.2.3.4"
 			}
-	]
+		]
+	}]
 }
